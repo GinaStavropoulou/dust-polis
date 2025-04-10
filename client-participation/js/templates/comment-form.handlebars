@@ -32,18 +32,18 @@
         </label>
       {{else}}
         <label for="comment_form_textarea"
-               style="display:block;">
+               style="display:none;">
           {{{s.writeCommentHelpText}}}
         </label>
-        <p>
+        {{!-- <p>
           {{{s.helpWriteListIntro}}}
         </p>
         <ul>
           <li>{{{s.helpWriteListStandalone}}}</li>
           <li>{{{s.helpWriteListRaisNew}}}</li>
           <li>{{{s.helpWriteListShort}}}</li>
-        </ul>
-        <label for="comment_form_textarea" style="display:block">
+        </ul> --}}
+        <label for="comment_form_textarea" style="display:none">
           {{{s.tipCommentsRandom}}}
         </label>
       {{/if}}
