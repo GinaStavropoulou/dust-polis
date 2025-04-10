@@ -44,10 +44,11 @@
     padding-inline-end: 0px
     ">
     <div class="POLIS_HEADLINE conversationViewHeadline" dir="auto">
+    
     {{#unless useBannerHeader}}
       {{#if showLogoAndBreadCrumbInHeader}}
           <div class="HeadingA">
-            <a href="pol.is">
+            <a href="https://dust-polis.tudelft.nl/">
               <img
                 width="164px"
                 src="https://pol.is/polis_logo_2.png"
@@ -190,6 +191,18 @@
         ">closed</span>
       {{/unless}}
       </h2>
+    
+    <div>
+      {{#if (eq conversation_id "59cudhnueb")}}
+        <img src="/sv_banner.png" alt="SV Banner" />
+      {{else if (eq conversation_id "4k8a4nuzea")}}
+        <img src="/bg_banner.png" alt="BG Banner" />
+      {{else if (eq conversation_id "38cmv9u5ei")}}
+        <img src="/pl_banner.jpg" alt="PL Banner" />
+      {{else}}
+        <img src="/default_banner.jpeg" alt="General Banner" />
+      {{/if}}
+    </div> 
     {{/ifDefined}}
     {{/unless}}
 
@@ -438,7 +451,7 @@
 {{#unless no_footer}}
 
   <div style="margin-top: 40px; margin-bottom: 20px;" data-test-footer>
-    <a href="https://pol.is" target="_blank" dir="auto">
+    <a href="https://dust-polis.tudelft.nl/" target="_blank" dir="auto">
       {{> logo}}
     </a>
     <div
