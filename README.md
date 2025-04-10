@@ -1,6 +1,6 @@
 # Dust-Polis
 
-Cloned from [compdemocracy/polis](https://github.com/compdemocracy/polis) and modified for the DUST project
+Cloned from [compdemocracy/polis](https://github.com/compdemocracy/polis) and modified for the [DUST project](https://dust-polis.tudelft.nl/).
 
 ![DUST](./server/public/default_banner.jpeg)
 # Polis
