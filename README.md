@@ -1,3 +1,8 @@
+# Dust-Polis
+
+Cloned from [compdemocracy/polis](https://github.com/compdemocracy/polis) and modified for the DUST project
+
+![DUST](./server/public/default_banner.jpeg)
 # Polis
 
 Polis is an AI powered sentiment gathering platform. More organic than surveys and less effort than focus groups.
