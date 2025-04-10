@@ -180,6 +180,8 @@ window.addEventListener("message", function(event) {
   });
 }());
 
+Handlebars.registerHelper("eq", (a, b) => a === b);
+
 function ifDefined(context, options) {
   return "undefined" !== typeof context ? options.fn(this) : "";
 }
